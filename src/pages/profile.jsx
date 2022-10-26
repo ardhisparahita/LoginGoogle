@@ -18,6 +18,7 @@ const Profile = () => {
     }
     useEffect(() => {
         getData()
+        // eslint-disable-next-line
     },[])
     return(
         <h1>Selamat Datang, {data?.data.email}</h1>
