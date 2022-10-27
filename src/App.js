@@ -16,7 +16,7 @@ function App() {
         path='/'
         element={
           <div className="App">
-            <a href='https://fadfaasd.herokuapp.com/api/v1/auth/google'>Login Google Muhammad Reza</a>
+            <a href='https://fadfaasd.herokuapp.com/api/v1/auth/google'>Login Google Ardhis Parahita</a>
           </div>
         }/>
         <Route path='/:token' element={<Profile/>}/>
